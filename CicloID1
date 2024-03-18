@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page de Caroline</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace a tu archivo de estilos CSS -->
+</head>
+<body>
+    <header>
+        <!-- Encabezado de la página, posiblemente con el logo y el nombre de Caroline -->
+        <h1>Landing Page de Caroline</h1>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <!-- Sección principal con una imagen representativa -->
+            <img src="caroline_logo.svg" alt="Logo de Caroline">
+            <h2>¡Bienvenido a la página de Caroline!</h2>
+            <p>Descubre cómo puedo ayudarte con tus finanzas y emprendimientos.</p>
+            <a href="#contacto" class="cta">Contáctame</a>
+        </section>
+
+        <section class="about">
+            <!-- Sección con información sobre Caroline -->
+            <h2>Sobre Mí</h2>
+            <p>¡Hola! Soy Caroline Sada, una influencer financiera apasionada por ayudar a los emprendedores a alcanzar sus metas financieras. Mi enfoque está en...</p>
+        </section>
+
+        <!-- Otras secciones con contenido adicional -->
+
+    </main>
+
+    <footer id="contacto">
+        <!-- Formulario de contacto -->
+        <h2>Contacto</h2>
+        <form action="enviar_formulario.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit" class="cta">Enviar</button>
+        </form>
+    </footer>
+</body>
+</html>
